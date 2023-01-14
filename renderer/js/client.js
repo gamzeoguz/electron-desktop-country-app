@@ -34,7 +34,7 @@ soap.createClient(url, options, function(err1, client) {
     document.getElementById("result").classList.remove('hidden');
     document.getElementById("result").classList.add('block');
 
-  console.log("request has made");
+  console.log("request has been made");
 });
 
 return false;
